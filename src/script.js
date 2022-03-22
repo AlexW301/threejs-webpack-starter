@@ -31,7 +31,10 @@ material.color = new THREE.Color(0xff0000)
 
 // Mesh
 const sphere = new THREE.Mesh(geometry,material)
+// const sphere2 = new THREE.Mesh(geometry,material)
 scene.add(sphere)
+// scene.add(sphere2)
+// sphere.position.set(.5, 0, 0)
 
 // Lights
 
